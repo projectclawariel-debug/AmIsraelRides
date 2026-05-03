@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Am Israel Rides - Jewish Motorcycle Community</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🕎🏍️ Am Israel Rides</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#rides">Upcoming Rides</a></li>
+                <li><a href="#join">Join Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Two Wheels, One People</h1>
+            <p class="subtitle">A Jewish motorcycle community based in Boca Raton, Florida</p>
+            <p class="tagline">Riding together, building connections, exploring the open road</p>
+            <a href="#join" class="cta-button">Join the Ride</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Who We Are</h2>
+            <p>Am Israel Rides is a community of Jewish motorcycle enthusiasts in the Boca Raton area. We come together to share our passion for riding while building meaningful connections within our community.</p>
+            <p>Whether you're a seasoned rider or just getting started, whether you ride a cruiser, sport bike, or adventure bike — there's a place for you here.</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🏍️</div>
+                    <h3>Sunday Rides</h3>
+                    <p>Monthly group rides through scenic Florida routes</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Community</h3>
+                    <p>Meet fellow Jewish riders and build lasting friendships</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>Adventure Trips</h3>
+                    <p>Multi-day rides to exciting destinations</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💡</div>
+                    <h3>All Welcome</h3>
+                    <p>All skill levels and bike types welcome</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rides" class="rides">
+        <div class="container">
+            <h2>Upcoming Rides</h2>
+            
+            <div class="ride-card next-ride">
+                <div class="ride-date">
+                    <span class="month">JUN</span>
+                    <span class="day">7</span>
+                </div>
+                <div class="ride-details">
+                    <h3>🎉 Inaugural Group Ride!</h3>
+                    <p class="ride-time">Sunday, June 7th, 2025 — 9:00 AM</p>
+                    <p class="ride-route">Meet at: TBD (Boca Raton area)</p>
+                    <p class="ride-description">Our first official group ride! We'll plan a scenic route through Palm Beach County, stop for lunch at a kosher-friendly spot, and get to know each other. All skill levels welcome — we'll ride at a comfortable pace for everyone.</p>
+                    <div class="ride-meta">
+                        <span class="difficulty">Beginner-Friendly</span>
+                        <span class="duration">~4 hours</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ride-card">
+                <div class="ride-date">
+                    <span class="month">JUL</span>
+                    <span class="day">12</span>
+                </div>
+                <div class="ride-details">
+                    <h3>Summer Beach Run</h3>
+                    <p class="ride-time">Sunday, July 12th, 2025 — 8:00 AM</p>
+                    <p class="ride-route">Coastal route — details TBD</p>
+                    <p class="ride-description">A refreshing early morning ride along the coast. Perfect for beating the summer heat!</p>
+                    <div class="ride-meta">
+                        <span class="difficulty">All Levels</span>
+                        <span class="duration">~3 hours</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calendar-note">
+                <p>📅 Monthly rides are typically held on the first or second Sunday of each month.</p>
+                <p>🌅 We start early to avoid the Florida heat and traffic.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="join">
+        <div class="container">
+            <h2>Join the Community</h2>
+            <p>Ready to ride with us? Here's how to get involved:</p>
+            
+            <div class="join-options">
+                <div class="join-card">
+                    <div class="join-icon">📘</div>
+                    <h3>Facebook Group</h3>
+                    <p>Join our Facebook group for ride announcements, discussions, and connecting with other riders.</p>
+                    <a href="#" class="join-button facebook">Join Facebook Group</a>
+                </div>
+                
+                <div class="join-card">
+                    <div class="join-icon">📧</div>
+                    <h3>Email List</h3>
+                    <p>Get ride announcements and updates directly to your inbox.</p>
+                    <form class="email-form" onsubmit="handleSubscribe(event)">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                
+                <div class="join-card">
+                    <div class="join-icon">📱</div>
+                    <h3>WhatsApp</h3>
+                    <p>Quick updates and day-of coordination via WhatsApp group.</p>
+                    <button class="join-button whatsapp" onclick="alert('WhatsApp group link coming soon!')">Join WhatsApp</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Questions? Suggestions? Want to help organize? Reach out!</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <a href="mailto:info@amisraelrides.com">info@amisraelrides.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📘</span>
+                    <span>Facebook: Am Israel Rides</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>Based in Boca Raton, FL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Am Israel Rides — Two Wheels, One People 🕎🏍️</p>
+            <p class="footer-note">Proudly Jewish. Passionately Riding.</p>
+        </div>
+    </footer>
+
+    <script>
+        function handleSubscribe(e) {
+            e.preventDefault();
+            alert('Thanks for subscribing! We\'ll send you ride updates at: ' + e.target.querySelector('input').value);
+        }
+    </script>
+</body>
+</html>
