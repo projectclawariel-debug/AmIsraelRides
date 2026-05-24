@@ -6,11 +6,21 @@
     <title>Am Israel Rides - Jewish Motorcycle Community</title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Am Israel Rides - Jewish Motorcycle Community">
+    <meta property="og:description" content="Two Wheels, One People. A Jewish motorcycle community based in Boca Raton, Florida.">
+    <meta property="og:image" content="amisraelrides_group.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="amisraelrides_group.png">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
-            <div class="logo">🕎🏍️ Am Israel Rides</div>
+            <div class="logo">
+                <img src="amisraelrides_logo.png" alt="Am Israel Rides Logo" class="logo-img">
+                <span>Am Israel Rides</span>
+            </div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#rides">Upcoming Rides</a></li>
@@ -21,6 +31,9 @@
     </nav>
 
     <header class="hero">
+        <div class="hero-image">
+            <img src="amisraelrides_group.png" alt="Am Israel Rides group riding through Florida">
+        </div>
         <div class="hero-content">
             <h1>Two Wheels, One People</h1>
             <p class="subtitle">A Jewish motorcycle community based in Boca Raton, Florida</p>
@@ -37,7 +50,9 @@
             
             <div class="features">
                 <div class="feature">
-                    <div class="feature-icon">🏍️</div>
+                    <div class="feature-icon">
+                        <img src="amisraelrides_profile1.png" alt="Motorcycle with Star of David wheel" class="feature-img">
+                    </div>
                     <h3>Sunday Rides</h3>
                     <p>Monthly group rides through scenic Florida routes</p>
                 </div>
@@ -116,6 +131,13 @@
             
             <div class="join-options">
                 <div class="join-card">
+                    <div class="join-icon">📸</div>
+                    <h3>Instagram</h3>
+                    <p>Follow us for ride photos, behind-the-scenes, and community highlights.</p>
+                    <a href="https://instagram.com/amisraelrides" class="join-button" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: white;">Follow @amisraelrides</a>
+                </div>
+                
+                <div class="join-card">
                     <div class="join-icon">📘</div>
                     <h3>Facebook Group</h3>
                     <p>Join our Facebook group for ride announcements, discussions, and connecting with other riders.</p>
@@ -142,6 +164,27 @@
         </div>
     </section>
 
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Ride Gallery</h2>
+            <p>Glimpses of our journeys through the Sunshine State</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="amisraelrides_group.png" alt="Group ride through Florida">
+                    <span class="gallery-caption">Group ride through scenic Florida</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="amisraelrides_profile1.png" alt="Custom motorcycle with Star of David">
+                    <span class="gallery-caption">Ride with pride</span>
+                </div>
+                <div class="gallery-item">
+                    <img src="amisraelrides_profile3.png" alt="Sunset ride on A1A">
+                    <span class="gallery-caption">Sunset on A1A</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
@@ -154,7 +197,11 @@
                 </div>
                 <div class="contact-item">
                     <span class="contact-icon">📘</span>
-                    <span>Facebook: Am Israel Rides</span>
+                    <a href="#" target="_blank">Facebook: Am Israel Rides</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📸</span>
+                    <a href="https://instagram.com/amisraelrides" target="_blank">@amisraelrides</a>
                 </div>
                 <div class="contact-item">
                     <span class="contact-icon">📍</span>
@@ -166,7 +213,17 @@
 
     <footer>
         <div class="container">
-            <p>Am Israel Rides — Two Wheels, One People 🕎🏍️</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="amisraelrides_logo.png" alt="Am Israel Rides Logo" class="footer-logo">
+                    <p>Am Israel Rides — Two Wheels, One People 🕎🏍️</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" target="_blank" title="Facebook">📘</a>
+                    <a href="https://instagram.com/amisraelrides" class="social-link" target="_blank" title="Instagram">📸</a>
+                    <a href="mailto:info@amisraelrides.com" class="social-link" title="Email">📧</a>
+                </div>
+            </div>
             <p class="footer-note">Proudly Jewish. Passionately Riding.</p>
         </div>
     </footer>
