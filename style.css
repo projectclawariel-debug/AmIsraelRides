@@ -297,6 +297,28 @@ section > .container > p {
     color: var(--text-light);
 }
 
+.next-ride .ride-meta span.badge {
+    background: var(--primary);
+    color: var(--white);
+    font-weight: 700;
+}
+
+.soft-launch {
+    border: 2px dashed var(--accent);
+    background: linear-gradient(135deg, var(--white) 0%, #fffbf0 100%);
+}
+
+.soft-launch .ride-meta span.badge.unofficial {
+    background: var(--text-light);
+    color: var(--white);
+}
+
+.ride-meta span.badge.official {
+    background: var(--primary);
+    color: var(--white);
+    font-weight: 700;
+}
+
 .next-ride .ride-meta span {
     background: var(--accent);
     color: var(--dark);
